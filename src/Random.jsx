@@ -5,9 +5,9 @@ const RandomBackground = () => {
 
   // Arka plan resimlerini bir dizi olarak tanımlayalım
   const images = [
-    'https://static.zerochan.net/Hololive.1024.3714395.webp',
-    'https://images6.alphacoders.com/125/thumb-1920-1255447.jpg',
-    'https://static.zerochan.net/Hololive.1024.3713984.webp',
+    'src/assets/H1.webp',
+    'src/assets/H2.jpg',
+    'src/assets/H3.webp',
   ];
 
   // Sayfa yüklendiğinde rastgele bir arka plan resmi seçelim

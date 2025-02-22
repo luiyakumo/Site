@@ -1,13 +1,15 @@
 import React, { useEffect, useState } from 'react';
 
+import H1 from './assets/H1.webp';
+import H2 from './assets/H2.jpg';
+import H3 from './assets/H3.webp';
+
 const RandomBackground = () => {
   const [backgroundImage, setBackgroundImage] = useState('');
 
   // Arka plan resimlerini bir dizi olarak tanımlayalım
   const images = [
-    'src/assets/H1.webp',
-    'src/assets/H2.jpg',
-    'src/assets/H3.webp',
+    H1,H2,H3
   ];
 
   // Sayfa yüklendiğinde rastgele bir arka plan resmi seçelim

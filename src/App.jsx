@@ -4,10 +4,12 @@ import Profile from './Profile';
 import Writings from './Writings';
 import RandomBackground from './Random';
 import PageContent from './block';
+import BackgroundMusic from './Music';
 
 export default function App() {
     return (
         <div className="app">
+            <BackgroundMusic />
             <div className="hero"></div>
             <section className="content">
                 <h1 style= {{ position: 'relative', top: '-70px',color: '#00f2ff'}}>About Me</h1>

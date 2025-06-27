@@ -69,6 +69,11 @@
   .app {
     flex-direction: column;
     align-items: center;
+
+    /* 🔧 Şunları değiştiriyoruz: */
+    height: auto; /* Ekran kadar sınırlama kaldırılıyor */
+    overflow-x: hidden; /* Sadece yatay kaydırmayı engelle */
+    overflow-y: auto;   /* Dikey kaydırma aktif */
   }
 
   .main-content {
@@ -77,7 +82,8 @@
     gap: 20px;
   }
 
-  .content, .additional-content {
+  .content,
+  .additional-content {
     width: 90%;
     max-width: 400px;
     height: auto;
@@ -91,4 +97,11 @@
     height: auto;
     margin-top: 0;
   }
+  .hero {
+  position: absolute;
+  top: 0;
+  left: 0;
+  min-height: 100%;
+  width: 100%;
+}
 }

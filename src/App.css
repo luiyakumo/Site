@@ -67,7 +67,7 @@
 }
 @media (max-width: 768px) {
   .top-bar {
-  width: 100%;
+  width: 80%;
   padding: 10px;
   font-size: 14px;
 }

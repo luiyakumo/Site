@@ -31,7 +31,7 @@ function BackgroundMusic() {
       <button 
         onClick={togglePlay}
         style={{
-          position: 'fixed',
+          position: 'absolute',        /* fixed yerine absolute */
           bottom: '20px',
           right: '20px',
           zIndex: 1000,

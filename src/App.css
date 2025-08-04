@@ -68,11 +68,6 @@
 
 @media (max-width: 768px) {
 
-  .steam-button {
-    top: 2000px !important;  /* Yüksekliği ihtiyacına göre değiştir */
-    left: 140px !important;  /* Sağa sola konum */
-    transform: scale(0.9);  /* Gerekirse küçült */
-  }
   .app {
     flex-direction: column;
     align-items: center;
@@ -203,11 +198,20 @@ div[style*="translateX(-488px)"] {
     height: 300px !important;
     width: 300px !important;
     
+    
+  }
+  .steam-button {
+    transform: none !important;
+    position: static !important;
+    display: inline-block !important;
+    margin: 50px 30px !important;
+    width: 35px !important;
+    height: 35px !important;
   }
 
   /* Bleh 2 için özel konumlandırma */
   .page-content:nth-of-type(2) {
-    margin-top: -320px !important;
+    margin-top: -340px !important;
     margin-bottom: 20px !important;
     height: 300px !important;
     width: 300px !important;

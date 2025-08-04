@@ -1,4 +1,8 @@
 import React, { useState } from 'react';
+import Steam from './assets/Steam.png';
+const images = [
+      Steam
+    ];
 
 function PageContent() {
   const [currentPage, setCurrentPage] = useState(1);
@@ -6,7 +10,6 @@ function PageContent() {
   const goToPage1 = () => setCurrentPage(1);
   const goToPage2 = () => setCurrentPage(2);
   const goToPage3 = () => setCurrentPage(3);
-
   return (
     <div>
       {/* Sayfalar arasında geçiş yapmak için butonlar */}
@@ -62,7 +65,8 @@ function PageContent() {
   }}
 >
   <img
-    src="src/assets/Steam.png"
+  
+    src={Steam}
     alt="Steam Logo"
     style={{
       width: '60px',

@@ -36,6 +36,7 @@ function PageContent() {
         style={{
           transition: 'opacity 2s ease', // Fade efekti süresi 2 saniye
           opacity: currentPage === 1 ? 1 : 0, // Sayfa 1 görünür, diğer sayfa kaybolur
+          pointerEvents: currentPage === 1 ? 'auto' : 'none',
           position: 'relative', // Sayfa içeriği konumlandırılıyor
           top: '314px', // İçeriği yukarıya kaydırma
           left: '-150px', // İçeriği sola kaydırma
@@ -50,7 +51,25 @@ function PageContent() {
         {currentPage === 1 && (
           <div>
             <h2 style={{paddingTop: '34px',marginLeft: '4px', color: '#00f2ff'}}>Bleh 1</h2>
-            <p style={{marginTop: '-20px',marginLeft: '6px',color: '#00f2ff'}}>Random1.</p>
+            <a href="https://steamcommunity.com/id/yukariyuka/" target="_blank" rel="noopener noreferrer"
+  style={{
+    position: 'absolute',
+    top: '644px', // marginTop 490px + container padding/top hesaplanarak ayarlanmalı
+    left: '18px', // marginLeft gibi
+    zIndex: 9999,
+    cursor: 'pointer'
+  }}
+>
+  <img
+    src="src/assets/Steam.png"
+    alt="Steam Logo"
+    style={{
+      width: '60px',
+      height: '60px',
+      display: 'block',
+    }}
+  />
+</a>
           </div>
         )}
       </div>
@@ -60,6 +79,7 @@ function PageContent() {
         style={{
           transition: 'opacity 2s ease', // Fade efekti süresi 2 saniye
           opacity: currentPage === 2 ? 1 : 0, // Sayfa 2 görünür, diğer sayfa kaybolur
+          pointerEvents: currentPage === 2 ? 'auto' : 'none',
           position: 'relative', // Sayfa içeriği konumlandırılıyor
           top: '396px', // İçeriği yukarıya kaydırma
           left: '-150px', // İçeriği sola kaydırma
@@ -82,6 +102,7 @@ function PageContent() {
         style={{
           transition: 'opacity 2s ease', // Fade efekti süresi 2 saniye
           opacity: currentPage === 3 ? 1 : 0, // Sayfa 1 görünür, diğer sayfa kaybolur
+          pointerEvents: currentPage === 3 ? 'auto' : 'none',
           position: 'relative', // Sayfa içeriği konumlandırılıyor
           top: '-764px', // İçeriği yukarıya kaydırma
           left: '-420px', // İçeriği sola kaydırma

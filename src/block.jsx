@@ -62,7 +62,7 @@ function PageContent() {
   }}
 >
   <img
-    src="src/assets/Steam.png"
+    src="assets/Steam.png"
     alt="Steam Logo"
     style={{
       width: '60px',

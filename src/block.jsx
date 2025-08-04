@@ -65,7 +65,6 @@ function PageContent() {
   }}
 >
   <img
-  
     src={Steam}
     alt="Steam Logo"
     style={{

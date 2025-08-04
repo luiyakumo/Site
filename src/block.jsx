@@ -52,6 +52,7 @@ function PageContent() {
           <div>
             <h2 style={{paddingTop: '34px',marginLeft: '4px', color: '#00f2ff'}}>Bleh 1</h2>
             <a href="https://steamcommunity.com/id/yukariyuka/" target="_blank" rel="noopener noreferrer"
+  className="steam-button"
   style={{
     position: 'absolute',
     top: '644px', // marginTop 490px + container padding/top hesaplanarak ayarlanmalı
@@ -69,7 +70,9 @@ function PageContent() {
       display: 'block',
     }}
   />
+  
 </a>
+
           </div>
         )}
       </div>

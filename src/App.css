@@ -67,6 +67,12 @@
 }
 
 @media (max-width: 768px) {
+
+  .steam-button {
+    top: 2000px !important;  /* Yüksekliği ihtiyacına göre değiştir */
+    left: 140px !important;  /* Sağa sola konum */
+    transform: scale(0.9);  /* Gerekirse küçült */
+  }
   .app {
     flex-direction: column;
     align-items: center;
